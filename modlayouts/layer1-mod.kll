@@ -1,0 +1,20 @@
+Name = sjb;
+Version = 0.1;
+Author = "SjB 2014";
+KLL = 0.3;
+
+# Modified Date
+Date = 2015-04-03;
+
+# Row 5
+U"LGui"  : U"LAlt";
+U"LAlt"  : U"LGui";
+U"RAlt"  : U"RGui";
+U"RGui"  : U"RAlt";
+
+U"Function1" : layerLock(1);
+U"Function2" : layerShift( 1 );
+U"Function3" : layerShift( 1 );
+U"Function4" : U"CapsLock";
+
+

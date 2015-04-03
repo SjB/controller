@@ -21,7 +21,7 @@ BaseMap="defaultMap"
 # This is the default layer of the keyboard
 # NOTE: To combine kll files into a single layout, separate them by spaces
 # e.g.  DefaultMap="mylayout mylayoutmod"
-DefaultMap="md1Overlay stdFuncMap"
+DefaultMap="layer1-mod md1Overlay stdFuncMap"
 
 # This is where you set the additional layers
 # NOTE: Indexing starts at 1
@@ -29,7 +29,7 @@ DefaultMap="md1Overlay stdFuncMap"
 # e.g.  PartialMaps[1]="layer1 layer1mod"
 #       PartialMaps[2]="layer2"
 #       PartialMaps[3]="layer3"
-PartialMaps[1]="hhkbpro2"
+PartialMaps[1]="layer2-mod"
 
 
 
@@ -54,6 +54,7 @@ Chip="mk20dx128vlf5"
 Compiler="gcc"
 
 
+cp ../modlayouts/*.kll ../kll/layouts/
 
 ########################
 # Bash Library Include #
